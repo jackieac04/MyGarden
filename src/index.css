@@ -1,0 +1,6 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  transition: 0.3s ease-in-out;
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Apple",
+    "type": "Fruit",
+    "sunlight": 8,
+    "height": 30,
+    "image": "/apple.svg"
+  },
+  {
+    "name": "Cactus",
+    "type": "Succulent",
+    "sunlight": 12,
+    "height": 30,
+    "image": "/cactus.svg"
+  },
+  {
+    "name": "Carrot",
+    "type": "Vegetable",
+    "sunlight": 8,
+    "height": 2,
+    "image": "/carrot.svg"
+  },
+  {
+    "name": "Cherry",
+    "type": "Fruit",
+    "sunlight": 8,
+    "height": 30,
+    "image": "/cherry.svg"
+  },
+  {
+    "name": "Clover",
+    "type": "Legume",
+    "sunlight": 6,
+    "height": 1,
+    "image": "/clover.svg"
+  },
+  {
+    "name": "Corn",
+    "type": "Fruit",
+    "sunlight": 8,
+    "height": 12,
+    "image": "/corn.svg"
+  },
+  {
+    "name": "Eggplant",
+    "type": "Vegetable",
+    "sunlight": 8,
+    "height": 3,
+    "image": "/eggplant.svg"
+  },
+  {
+    "name": "Maple Tree",
+    "type": "Tree",
+    "sunlight": 8,
+    "height": 70,
+    "image": "/maple.svg"
+  },
+  {
+    "name": "Palm Tree",
+    "type": "Grass",
+    "sunlight": 6,
+    "height": 50,
+    "image": "/palm.svg"
+  },
+  {
+    "name": "Rose",
+    "type": "Flower",
+    "sunlight": 6,
+    "height": 3,
+    "image": "/rose.svg"
+  },
+  {
+    "name": "Strawberry",
+    "type": "Fruit",
+    "sunlight": 6,
+    "height": 3,
+    "image": "/strawberry.svg"
+  },
+  {
+    "name": "Tulip",
+    "type": "Flower",
+    "sunlight": 6,
+    "height": 2,
+    "image": "/tulip.svg"
+  }
+]
