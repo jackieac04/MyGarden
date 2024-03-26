@@ -101,7 +101,7 @@ function App() {
       <ChakraProvider>
         <main>
           <div className="top">
-            <img id="tulip" src="/tulip.svg" alt="Tulip icon" />
+            <img id="tulip" src="/MyGarden/tulip.svg" alt="Tulip icon" />
             <h1>My Garden</h1>
           </div>
           <div className="content">
@@ -128,6 +128,7 @@ function App() {
                 <Select
                   placeholder="Plant Type"
                   onChange={(e) => setType(e.target.value)}
+                  value={type}
                 >
                   <option value="">All</option>
                   <option value="Flower">Flower</option>
@@ -139,6 +140,7 @@ function App() {
                 <Select
                   placeholder="Hours of Sun"
                   onChange={(e) => setHours(parseInt(e.target.value))}
+                  value={hours}
                 >
                   <option value={0}>All</option>
                   <option value={6}>6</option>
@@ -159,7 +161,12 @@ function App() {
                   </Checkbox>
                   <Button
                     colorScheme="green"
-                    onClick={() => setFilteredPlants(plants)}
+                    onClick={() => {
+                      setFilteredPlants(plants);
+                      setHours(0);
+                      setType("");
+                      setSortBySizeChecked(false);
+                    }}
                     style={{
                       fontWeight: "400",
                       border: "3px solid var(--dark-green)",

@@ -14,11 +14,11 @@ export default function ItemCard({ plant, addToGarden }: itemcardProps) {
           <img className="plantimg" src={plant.image} alt="" />
 
           <div className="facts">
-            <img className="plantimgsm" src="/plant.svg" alt="" />
+            <img className="plantimgsm" src="/MyGarden/plant.svg" alt="" />
             <span>{plant.type}</span>
-            <img className="plantimgsm" src="/sun.svg" alt="" />
+            <img className="plantimgsm" src="/MyGarden/sun.svg" alt="" />
             <span> {plant.sunlight} hours</span>
-            <img className="plantimgsm" src="/tree.svg" alt="" />
+            <img className="plantimgsm" src="/MyGarden/tree.svg" alt="" />
             <span>
               {plant.height} {plant.height == 1 ? "foot" : "feet"}
             </span>
@@ -28,7 +28,11 @@ export default function ItemCard({ plant, addToGarden }: itemcardProps) {
       <div className="semicircle">
         <div className="innercirc" onClick={() => addToGarden(plant)}>
           <div className="btn">
-            <img className="seeds" src="/seeds.svg" alt="seed add icon" />
+            <img
+              className="seeds"
+              src="/MyGarden/seeds.svg"
+              alt="seed add icon"
+            />
             <p id="plus">+</p>
           </div>
         </div>
